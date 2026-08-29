@@ -16,6 +16,17 @@ description: >-
   Stripe, Square/Block, DoorDash, Instacart, Affirm, Impossible Foods, GitLab, Okta,
   Rocket Lab, and QuantumScape. Headquarters are at 2128 Sand Hill Road, Menlo Park,
   CA, with a primarily United States geographic focus and select global investments.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
