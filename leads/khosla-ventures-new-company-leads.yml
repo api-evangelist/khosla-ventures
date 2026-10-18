@@ -1,4 +1,46 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: khosla-ventures
-leads: []
+leads:
+- name: Outsmartcollege
+  url: https://outsmartcollege.com/
+  suggested_slug: outsmartcollege
+  sector: ''
+  source_vc: khosla-ventures
+  source: https://www.khoslaventures.com/portfolio/
+  stub_created: false
+- name: Splash
+  url: http://popgun.ai/
+  suggested_slug: popgun-ai
+  sector: ''
+  source_vc: khosla-ventures
+  source: https://www.khoslaventures.com/portfolio/
+  stub_created: false
+- name: Vectranetworks
+  url: https://www.vectranetworks.com/
+  suggested_slug: vectranetworks-com
+  sector: ''
+  source_vc: khosla-ventures
+  source: https://www.khoslaventures.com/portfolio/
+  stub_created: false
+- name: Forterausa
+  url: https://forterausa.com/
+  suggested_slug: forterausa-com
+  sector: ''
+  source_vc: khosla-ventures
+  source: https://www.khoslaventures.com/portfolio/
+  stub_created: false
+- name: Curai
+  url: http://curai.com/
+  suggested_slug: curai-com
+  sector: ''
+  source_vc: khosla-ventures
+  source: https://www.khoslaventures.com/portfolio/
+  stub_created: false
+- name: Headspacehealth
+  url: https://www.headspacehealth.com/
+  suggested_slug: headspacehealth
+  sector: ''
+  source_vc: khosla-ventures
+  source: https://www.khoslaventures.com/portfolio/
+  stub_created: false

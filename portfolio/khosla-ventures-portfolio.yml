@@ -3,9 +3,9 @@ method: searched
 source: https://www.khoslaventures.com/portfolio/
 summary:
   portfolio_total: 125
-  in_network: 125
-  api_providers: 28
-  missing: 0
+  in_network: 119
+  api_providers: 25
+  missing: 6
   stubs_created: 0
 companies:
 - name: OpenDoor
@@ -21,10 +21,9 @@ companies:
   description: Outsmart College
   status: active
   source: https://www.khoslaventures.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: outsmartcollege
-  matched_by: name-slug
+  suggested_slug: outsmartcollege
 - name: Playback
   url: https://www.playback.tv/
   status: active
@@ -61,10 +60,10 @@ companies:
   url: http://popgun.ai/
   status: active
   source: https://www.khoslaventures.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: splash
-  matched_by: name-slug
+  x-name-collision: splash
+  suggested_slug: popgun-ai
 - name: Verobioscience
   url: https://www.verobioscience.com/
   description: Vero Biosciences
@@ -144,10 +143,10 @@ companies:
   description: Staying on top of cyber threats
   status: active
   source: https://www.khoslaventures.com/portfolio/
-  in_network: true
-  is_api_provider: true
-  slug: vectranetworks
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: vectranetworks
+  suggested_slug: vectranetworks-com
 - name: Rubrik
   url: https://www.rubrik.com/
   status: ipo
@@ -194,7 +193,7 @@ companies:
   url: https://www.cognition.ai/
   status: active
   source: https://www.khoslaventures.com/portfolio/
-  slug: cognition
+  slug: cognition-labs
   in_network: true
   is_api_provider: true
   matched_by: domain
@@ -550,7 +549,7 @@ companies:
   source: https://www.khoslaventures.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: generalintuition
+  slug: general-intuition
   matched_by: domain
 - name: Waabi
   url: https://waabi.ai/
@@ -575,7 +574,7 @@ companies:
   source: https://www.khoslaventures.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: fieldai
+  slug: field-ai
   matched_by: domain
 - name: Machindustries
   url: https://www.machindustries.com/
@@ -584,7 +583,7 @@ companies:
   source: https://www.khoslaventures.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: machindustries
+  slug: mach-industries
   matched_by: domain
 - name: Physicalintelligence
   url: https://www.physicalintelligence.company/
@@ -617,7 +616,7 @@ companies:
   source: https://www.khoslaventures.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: impossiblefoods
+  slug: impossible-foods
   matched_by: domain
 - name: Quantumscape
   url: https://www.quantumscape.com/
@@ -642,14 +641,14 @@ companies:
   source: https://www.khoslaventures.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: bluerivertechnology
+  slug: blue-river-technology
   matched_by: domain
 - name: Lanzatech
   url: https://lanzatech.com/
   status: active
   source: https://www.khoslaventures.com/portfolio/
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   slug: lanzatech
   matched_by: domain
 - name: Cfs
@@ -666,10 +665,10 @@ companies:
   description: Low CO₂ cement cheaper than regular
   status: active
   source: https://www.khoslaventures.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: forterausa
-  matched_by: name-slug
+  x-name-collision: forterausa
+  suggested_slug: forterausa-com
 - name: Glydways
   url: https://www.glydways.com/
   description: High-capacity urban mass transit
@@ -762,10 +761,10 @@ companies:
   description: AI-assisted primary care
   status: active
   source: https://www.khoslaventures.com/portfolio/
-  in_network: true
-  is_api_provider: true
-  slug: curai
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: curai
+  suggested_slug: curai-com
 - name: Ellipsishealth
   url: http://www.ellipsishealth.com/
   status: active
@@ -804,23 +803,22 @@ companies:
   description: In-the-moment care for every emotion
   status: active
   source: https://www.khoslaventures.com/portfolio/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: headspacehealth
-  matched_by: name-slug
+  suggested_slug: headspacehealth
 - name: Helloheart
   url: http://www.helloheart.com/
   status: active
   source: https://www.khoslaventures.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: helloheart
+  slug: hello-heart
   matched_by: domain
 - name: Hioscar
   url: https://www.hioscar.com/
   status: ipo
   source: https://www.khoslaventures.com/portfolio/
-  slug: oscar-health
+  slug: oscar
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -831,7 +829,7 @@ companies:
   source: https://www.khoslaventures.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: swordhealth
+  slug: sword
   matched_by: domain
 - name: Limbic
   url: https://limbic.ai/
@@ -927,7 +925,7 @@ companies:
   source: https://www.khoslaventures.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: science
+  slug: science-corporation
   matched_by: domain
 - name: Vitara
   url: https://www.vitara.com/
@@ -1038,7 +1036,7 @@ companies:
   source: https://www.khoslaventures.com/portfolio/
   in_network: true
   is_api_provider: false
-  slug: egenesisbio
+  slug: egenesis
   matched_by: domain
 - name: Rubedolife
   url: https://www.rubedolife.com/
